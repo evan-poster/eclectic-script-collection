@@ -23,3 +23,11 @@ In rare cases, you will need to see if your SSD supports TRIM. This command save
 ```
 $ ./check_for_trim.sh
 ```
+
+## Check Session Type
+
+For the forgetful, you can use the environment variable `$XDG_SESSION_TYPE` to reveal whether you are currently running on X11 or Wayland.
+
+```
+$ ./check_session_type.sh
+```
