@@ -2,4 +2,3 @@
 
 echo "Listing current Session Type."
 echo $XDG_SESSION_TYPE
-
